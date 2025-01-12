@@ -1,0 +1,10 @@
+POST /api/client/token HTTP/1.1
+Host: https://api-performance.ozon.ru
+Content-Type: application/json
+Accept: application/json
+
+{
+    "client_id":"1475598", 
+    "client_secret":"31580e11-658b-47d0-b4cc-10b7603333ff", 
+    "grant_type":"client_credentials"
+}
